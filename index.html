@@ -1,6 +1,7 @@
 <!doctype html>
 <head>
-<script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- <script>
     window.addEventListener("load", function() {
         document.body.addEventListener("click", function(e) {
             e.preventDefault();
@@ -10,26 +11,38 @@
             document.body.appendChild(div)
         })
     })
-</script>
+</script> -->
 </head>
 <body>
-    <article>
-        <header>
-            <h1>Jason's Github Website (QUANTITATIVES ONLY) &#x1F44C; &#x1F44C; &#x1F44C;</h1>
-            <h2>Vim Dependencies (bung)</h2>
-                <p>This bunk will probably be the only use for this website, but maybe more bung later on &#x1F44C; &#x1F44C;</p>
-                <br>
-                <p>Run the following in the terminal:
-                    <xmp>wget https://jasonyang5.github.io/install.sh
-    chmod +x install.sh
-    ./install.sh
-                    </xmp>
-                </p>
-            <xmp>printf("%p", ref)</xmp> now ur memory leaks r fixed &#x1F44C;
-            <h2>Links</h2>
-            <ul>
-                <li><a href="./vimrc.txt">My vimrc file (switches your major to astrophysics)</a></li>
-                <li><a href="./install.sh">Installation shell script (installs Typed Racket)</a></li>
-            </ul>
-    </article>
+	<div class="container">
+		<div class="starter-template">
+			<h1>Solow Growth Model and Data</h1>
+			<p class="lead">A Web Application for viewing data relevant to the Solow Growth Model</p>
+			<iframe src="https://jasonyang5.shinyapps.io/pwt_viz/" style="border: none; width: 1000px; height: 700px"></iframe>
+		</div>
+	</div>
+	<div class="container">
+		<h2>Motivation and Basic Theory</h2>
+			<p>The Solow Growth model predicts the growth rate and steady state of a country based off of 3 main things:</p>
+				<dl class="row">
+					<dt class="col-sm-3">Production Technology</dt>
+					<dd class="col-sm-9">Takes Labor and Capital to produce output (GDP)</dd>
+
+					<dt class="col-sm-3">Savings Rate</dt>
+					<dd class="col-sm-9">Amount of capital from last year reinvested into capital for this year</dd>
+
+					<dt class="col-sm-3">Labor vs Capital</dt>
+					<dd class="col-sm-9">Amount of Capital relative to Labor</dd>
+
+					<dt class="col-sm-3">Steady State</dt>
+					<dd class="col-sm-9">The state when capital last year equals capital this year (and similarly for production)</dd>
+				</dl>
+			<p class="list-group-item-heading">Based off of this, the Solow model has 2 main predictions:</p>
+			<li>Poorer countries grow faster than wealthier countries</li>
+			<li>Countries with the same growth statistics (from above) should eventually converge to the same level of consumption (i.e. resources available) at steady state</li>
+			<br>
+			<p>For more advanced treatment, see an intermediate macroeconomics textbook</p>
+		<h2>Data</h2>
+			<p>Data is from the Penn World Tables 9.0 (https://www.rug.nl/ggdc/productivity/pwt/)<p/>
+	</div>
 </body>
