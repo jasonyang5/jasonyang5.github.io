@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>jasonyang5.github.io/about/</loc>
+    <loc>https://jasonyang5.github.io/public/about/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/categories/</loc>
+    <loc>https://jasonyang5.github.io/public/categories/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/categories/coffee/</loc>
+    <loc>https://jasonyang5.github.io/public/categories/coffee/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/tags/coffeeupdate/</loc>
+    <loc>https://jasonyang5.github.io/public/tags/coffeeupdate/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/</loc>
+    <loc>https://jasonyang5.github.io/public/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/post/newbeans_3_18_21/</loc>
+    <loc>https://jasonyang5.github.io/public/post/newbeans_3_18_21/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/post/</loc>
+    <loc>https://jasonyang5.github.io/public/post/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>jasonyang5.github.io/tags/</loc>
+    <loc>https://jasonyang5.github.io/public/tags/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url>
 </urlset>

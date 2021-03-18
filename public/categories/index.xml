@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jason&#39;s Blog</title>
-    <link>jasonyang5.github.io/categories/</link>
+    <link>https://jasonyang5.github.io/public/categories/</link>
     <description>Recent content in Categories on Jason&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 18 Mar 2021 09:48:39 -0500</lastBuildDate><atom:link href="jasonyang5.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Mar 2021 09:48:39 -0500</lastBuildDate><atom:link href="https://jasonyang5.github.io/public/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coffee</title>
-      <link>jasonyang5.github.io/categories/coffee/</link>
+      <link>https://jasonyang5.github.io/public/categories/coffee/</link>
       <pubDate>Thu, 18 Mar 2021 09:48:39 -0500</pubDate>
       
-      <guid>jasonyang5.github.io/categories/coffee/</guid>
+      <guid>https://jasonyang5.github.io/public/categories/coffee/</guid>
       <description></description>
     </item>
     
