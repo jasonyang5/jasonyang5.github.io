@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason&#39;s Blog</title>
+    <link>jasonyang5.github.io/</link>
+    <description>Recent content on Jason&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 Mar 2021 09:48:39 -0500</lastBuildDate><atom:link href="jasonyang5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>jasonyang5.github.io/about/</link>
+      <pubDate>Thu, 18 Mar 2021 09:48:39 -0500</pubDate>
+      
+      <guid>jasonyang5.github.io/about/</guid>
+      <description>About Me Hi Everyone! I&amp;rsquo;m Jason Yang, a 4th year Economics Major and Math Minor at the University of Chicago.
+I&amp;rsquo;ve produced some (probably mediocre) research in Financial Economics as an Undergrad and currently love reading interesting articles published on the American Economic Review, Journal of Political Economy, and Journal of Finance.
+Coffee is my big hobby; I currently roast and brew single origin coffees from around the world.
+About the Blog I have the blog divided by Category and Tag</description>
+    </item>
+    
+    <item>
+      <title>Local Ethiopia Yirgacheffe: 3/11/21</title>
+      <link>jasonyang5.github.io/post/newbeans_3_18_21/</link>
+      <pubDate>Thu, 18 Mar 2021 09:48:39 -0500</pubDate>
+      
+      <guid>jasonyang5.github.io/post/newbeans_3_18_21/</guid>
+      <description>I was surprised to find a bag of beans from Ethiopia Yirgacheffe roasted yesterday at a local roastery (Kusanya Cafe) at Whole Foods. The beans had a very smooth mouthfeel and were very bright and fruity.
+I tried V60 first with the tabbed &amp;amp; bleached paper filters. The coffee felt quite thin but definitely not lacking in personality.
+The Clever Dripper with a cloth filter tasted similar but had a much fuller body (which I personally prefer) because of the additional dissolved oils.</description>
+    </item>
+    
+  </channel>
+</rss>

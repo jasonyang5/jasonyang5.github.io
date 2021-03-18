@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jason&#39;s Blog</title>
+    <link>jasonyang5.github.io/tags/</link>
+    <description>Recent content in Tags on Jason&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 Mar 2021 09:48:39 -0500</lastBuildDate><atom:link href="jasonyang5.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoffeeUpdate</title>
+      <link>jasonyang5.github.io/tags/coffeeupdate/</link>
+      <pubDate>Thu, 18 Mar 2021 09:48:39 -0500</pubDate>
+      
+      <guid>jasonyang5.github.io/tags/coffeeupdate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
