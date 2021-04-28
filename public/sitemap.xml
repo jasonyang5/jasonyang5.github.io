@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jasonyang5.github.io/public/about/</loc>
-    <lastmod>2021-03-18T09:48:39-05:00</lastmod>
+    <loc>https://jasonyang5.github.io/public/post/analyzepoliticsreview/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/books/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/categories/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/categories/other/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/politicalscience/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/post/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/</loc>
+    <lastmod>2021-04-28T00:08:45-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/about/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/categories/coffee/</loc>
@@ -17,19 +38,10 @@
     <loc>https://jasonyang5.github.io/public/tags/coffeeupdate/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>https://jasonyang5.github.io/public/</loc>
-    <lastmod>2021-03-18T09:48:39-05:00</lastmod>
-  </url><url>
     <loc>https://jasonyang5.github.io/public/post/newbeans_3_18_21/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/post/nesco/</loc>
-    <lastmod>2021-03-18T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/post/</loc>
-    <lastmod>2021-03-18T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/tags/</loc>
     <lastmod>2021-03-18T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/search/</loc>
