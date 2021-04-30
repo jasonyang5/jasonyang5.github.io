@@ -143,12 +143,9 @@ plot(indiv_graphs[[2]], main = "Preference B")
 plot(indiv_graphs[[3]], main = "Preference C")
 
 # generate a table 
-cycle$indivs_mat[[1]][2,1]
-cycle$indivs_mat[[2]][2,1]
-cycle$indivs_mat[[3]][2,1]
-
-# generate a table of the majorities
-
+cycle$indivs_mat[[1]][1,5]
+cycle$indivs_mat[[2]][1,5]
+cycle$indivs_mat[[3]][1,5]
 
 
 # Plots -------------------------------------------------------------------
