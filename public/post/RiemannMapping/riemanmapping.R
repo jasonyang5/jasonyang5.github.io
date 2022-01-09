@@ -41,9 +41,7 @@ straightpath_integral <- function(f, z, bounderr = 1e-5)
 }
 
 # Reg Poly to Reg Poly ----------------------------------------------------
-# might be worth implementing these map functions in C++
-# b/c they get called a bunch (?)
-# Maps circle onto polygon
+# Maps circle onto regular polygon with k sides 
 oldmap <- function(z, k, bounderr = 1e-8)
 {
   integrand <- function(w)
@@ -71,6 +69,14 @@ oldmap_inv <- function(zeta, k, bounderr = 1e-8)
 # Runs the code on pngs
 pic = readPNG("twicelogo.png")
 
+# pic = square
+# png = xdim x ydim x rgb (from 0 to 1)
+# to map this, we have to map the x,y onto stuff
+# have to
+# 1. rescale to another 630 by 630 png
+# 2. basically linearly interpolate everything in the middle
+
+# output = png 
 
 
 # Tests -------------------------------------------------------------------
@@ -86,7 +92,7 @@ datas = tibble(thetas = rep(thetas, 4),
          ys = rs*sin(thetas))
 
 complexs = complex(real = datas$xs, imaginary = datas$ys) %>%
-  map({function(z) oldmap(z, 1)})
+  map({function(z) oldmap(z, 3)})
 
 datas = datas %>%
   mutate(x_out = map_dbl(complexs, Re),

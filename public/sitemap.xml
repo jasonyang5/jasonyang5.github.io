@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasonyang5.github.io/public/categories/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/categories/coffee/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/coffeeupdate/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/post/newbeans_1_9_22/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/post/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/</loc>
+    <lastmod>2022-01-08T09:48:39-05:00</lastmod>
+  </url><url>
     <loc>https://jasonyang5.github.io/public/post/cryptopitch/</loc>
     <lastmod>2021-12-11T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/post/portfolioselection/</loc>
     <lastmod>2021-12-11T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>https://jasonyang5.github.io/public/categories/</loc>
-    <lastmod>2021-12-11T09:48:39-05:00</lastmod>
-  </url><url>
     <loc>https://jasonyang5.github.io/public/categories/economics/</loc>
-    <lastmod>2021-12-11T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/</loc>
     <lastmod>2021-12-11T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/tags/papers/</loc>
@@ -23,23 +38,11 @@
     <loc>https://jasonyang5.github.io/public/tags/personalfinance/</loc>
     <lastmod>2021-12-11T09:48:39-05:00</lastmod>
   </url><url>
-    <loc>https://jasonyang5.github.io/public/post/</loc>
-    <lastmod>2021-12-11T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/tags/</loc>
-    <lastmod>2021-12-11T09:48:39-05:00</lastmod>
-  </url><url>
     <loc>https://jasonyang5.github.io/public/post/unitedpoints/</loc>
     <lastmod>2021-06-19T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/categories/other/</loc>
     <lastmod>2021-06-19T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/categories/coffee/</loc>
-    <lastmod>2021-04-30T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/tags/coffeeupdate/</loc>
-    <lastmod>2021-04-30T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/post/newbeans_4_28_21/</loc>
     <lastmod>2021-04-30T09:48:39-05:00</lastmod>
