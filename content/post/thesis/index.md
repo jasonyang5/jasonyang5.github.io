@@ -1,7 +1,7 @@
 ---
 title: Investor Beliefs and Asset Pricing 
 date: 2022-05-04T09:48:39-05:00
-draft: true
+draft: false
 tags: ["Research"]
 categories: ["Economics"]
 math: true
