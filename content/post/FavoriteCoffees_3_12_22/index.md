@@ -27,6 +27,6 @@ The BDB is one of few that directly heat the group head electrically - here's th
 
 ![BDB Design](bdb.jpg)
 
-You can see that the group head above the portafilter is directly heated by a coil. 
+The brew boiler (2) heats up relatively quickly because it's small, and the group head (3) is heated directly via a coil. 
 
 I've heard of other machines that do this - like the Bezzra BZ10. But I couldn't find any supply of it anywhere, so I just went with the Breville and I'm pretty happy about my choice.

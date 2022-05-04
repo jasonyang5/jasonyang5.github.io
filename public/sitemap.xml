@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasonyang5.github.io/public/post/portfolioselection/</loc>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
+  </url><url>
     <loc>https://jasonyang5.github.io/public/categories/</loc>
-    <lastmod>2022-03-11T09:48:39-05:00</lastmod>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/categories/economics/</loc>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/</loc>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/post/</loc>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/research/</loc>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/tags/</loc>
+    <lastmod>2022-05-03T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/categories/coffee/</loc>
     <lastmod>2022-03-11T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/tags/coffeeupdate/</loc>
-    <lastmod>2022-03-11T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/</loc>
-    <lastmod>2022-03-11T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/post/</loc>
-    <lastmod>2022-03-11T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/tags/</loc>
     <lastmod>2022-03-11T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/post/favoritecoffees_3_12_22/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2022-01-08T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/post/cryptopitch/</loc>
-    <lastmod>2021-12-11T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/categories/economics/</loc>
     <lastmod>2021-12-11T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/tags/personalfinance/</loc>

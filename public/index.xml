@@ -5,7 +5,16 @@
     <link>https://jasonyang5.github.io/public/</link>
     <description>Recent content on Jason&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Mar 2022 09:48:39 -0500</lastBuildDate><atom:link href="https://jasonyang5.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 09:48:39 -0500</lastBuildDate><atom:link href="https://jasonyang5.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Portfolio Choice</title>
+      <link>https://jasonyang5.github.io/public/post/portfolioselection/</link>
+      <pubDate>Tue, 03 May 2022 09:48:39 -0500</pubDate>
+      
+      <guid>https://jasonyang5.github.io/public/post/portfolioselection/</guid>
+      <description>Some of you might be interested in what finance theory has to say about saving and investing. In this post I’ll cover a classic model for portfolio choice and what we can learn from it.</description>
+    </item>
+    
     <item>
       <title>Why I bought the Breville Dual Boiler</title>
       <link>https://jasonyang5.github.io/public/post/favoritecoffees_3_12_22/</link>
