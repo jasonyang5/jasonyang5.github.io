@@ -1,55 +1,43 @@
 ---
-title: "Coinbase Stock Pitch"
-date: 2021-12-11T09:48:39-05:00
-draft: true
+title: "How I'm thinking about Coinbase Stock"
+date: 2022-05-29T10:48:39-05:00
+draft: false
 tags: ["PersonalFinance"]
 categories: ["Economics"]
+cover:
+    image: "Coinbase.svg.png"
+    alt: "Coinbase Logo"
+    caption: ""
+    relative: false
 ---
 
-# Intuitive (Fundamental) Valuation
+Here's how I'm thinking of valuing Coinbase. I haven't invested anything yet, but I'm looking to get in at something like $50/sh. 
 
 ## How the business works
-At a high level, the coinbase revenue is 
+Coinbase has several lines of business with the goal of creating a crypto personal finance ecosystem (payments, investment, loans, credit, and a bunch more). I'm primarly interested in the trading part of the business, which makes about 80-90% of their revenue. 
+
+At a high level, coinbase trading revenue is 
 Revenue = RetailTransactionVolume * Fees
-Transaction fees are 95% of their revenue
 
-Their costs are in line with any other growthy tech business - lots of tech investment to build out the platform and lots of sales and marketing. Nothing out of the ordinary, although they took their positive profits from last year and are heavily investing this year & will have negative profits for the next few quarters. 
+Their costs are in line with any other growthy tech business - lots of tech investment to build out the platform and lots of sales and marketing. In the last couple quarters they've substantially increased investment into the non-trading parts of the business. 
 
-## Current Market Pricing
-Right now, market pricing is far from fundamentals because it is currently priced as 'BTC Up Or Down', rather than as a function of crypto volumes on the platform. The correlation to BTC price is 0.7, correlation to SPX is about 0.5 over the last year. 
+## Current Pricing
+### Correlation to BTC Price
+Right now, Coinbase is priced closely to BTC (its correlation to BTC is ~0.7, correlation to SPX is about ~0.5 over the last year). This naturally makes its market value deviate from 'fundamental value' through time. 
 
-The 2022Q1 earnings report was a heavy "surprise" to the downside because Crypto volumes were down, which compressed the top line. But, the fact that crypto volumes were down YTD was no secret - you can literally just look at BTC volume chart and see that. 
+Who trades the stock drives the correlation, which currently are investors looking for a broader "crypto" exposure rather than investing in Coinbase specifically. The top holders are Crypto or "Innovation" ETFs. This suggests that most investors invest in Coinbase through these ETF's because they either cannot or will not invest in cryptocurrencies directly. 
 
-The fact that the crypto market as a whole is going down right now is causing Coinbase to go down as well due to that priced in correlation - they are down something like 70% from the IPO and down ~50% over the past month. But, BTC volumes are up - this is a common thing across almost all markets, when volatilities goes up volumes go up and crypto is no different. 
+A couple times, the pricing bucked the trend and fell more in line with fundamentals. For example, the 2022Q1 earnings report was a heavy "surprise" to the downside because Crypto volumes fell that quarter even though cryptocurrency prices rose significantly. The fact that volumes dropped YTD was no secret - it's easy to see in any publically availble chart of cryptocurrency volumes. 
+
+Since 80%+ of Coinbase revenue comes directly from cryptocurrency trading volumes, I think the 'fundamental' value should be driven by trading volumes rather the prices themselves. Sure, there is some relationship between the two - normal people won't be keen to open a coinbase account and trade when BTC is in a huge drawdown - but I don't think it should be as strong as it is right now. 
+
+### Fundamental Value
+Using a backwards DCF with very conservative assumptions (assuming the non-trading parts of the business generated 0 profits, heavy discount rate, and heavy discounting of crypto assets on their balance sheet), a $66 sh price of Coinbase implies that BTC volumes will be down 40% in the coming years. 
+
+This seems pretty reasonable given how volumes are evolving now, so I'm waiting for the price to drop a bit further before buying in. 
 
 ## Catalyst
-One short term, one long term catalyst. 
-1. Earnings - they report that revenue is up because volumes are up, causing the price to go up in the short term (but potentially revert in line with btc price)
-2. Market Players will Change - right now, a very high % of holders of Coinbase are not 'fundamental' players but rather people looking to be long Crypto as a whole but either cannot or will not invest in spot crypto (e.g. most institutional managers) or ETF's that track the broader crypto and meme stocks (e.g. ARKK innovation fund, the largest owner of coinbase at the moment). Within the next 1-2 years, there will be an increase in fundamental value investor coverage in this space which will make the price converge to be priced in line with volume rather than BTC price. 
+I see two catalysts that will make Coinbase price more in line with its fundamentals rather than in line with the broader crypto market. 
 
-
-
-<!-- Bottom up view of retail transaction volme
-RetailTransactionVolume = NumUsers * VolumePerUser
-
-Top down view of retail transaction volume
-RetailTransactionVolume = CryptoTradeVolume * RetailShare * CoinbaseShare
-
-Hard to diversify risks in the thesis
-1. Number future users drops because BTC tanks
-2. Industry wide fee compression affects the top line
-3. Crypto correlation (in the short and medium run)
-4. General market environment (risk off)
-
-Easy to diversify risks in the thesis
-1. Idiosyncratic risks (they make stupid business decisions like over spending when they don't have much to grow into?) - just buy competitors too
-
-Catalyst: Correlation between btc and coinbase breaks
-* Gradual - Increased share of institutional volume & ownership outside of meme stocks
-* Step Function - Earnings report when volume is materially higher than expected due to high vol but low btc price
-
-Risk Simulation
-* Model variance of btc volumes
-
-Recommendation: Buy for 1-2 years
- -->
+1. Earnings - they report that revenue is up because volumes are up, causing the price to go up in the short term (but potentially revert in line with btc price). 
+2. Market Players will Change - Within the next 1-2 years, there will be an increase in fundamental value investor coverage in this space which will make the price converge to be priced in line with volume rather than BTC price. 

@@ -2,8 +2,8 @@
 title: "My Delayed 2022 Single Origin List"
 date: 2022-05-29T09:48:39-05:00
 draft: false
-tags: ["Coffee"]
-categories: ["CoffeeUpdate"]
+tags: ["CoffeeUpdate"]
+categories: ["Coffee"]
 ---
 
 This year I've wanted to build my palate so I can identify differences across single origin coffees. So here's my list so far:
