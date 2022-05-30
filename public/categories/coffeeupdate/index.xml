@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CoffeeUpdate on Jason&#39;s Blog</title>
+    <link>https://jasonyang5.github.io/public/categories/coffeeupdate/</link>
+    <description>Recent content in CoffeeUpdate on Jason&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 29 May 2022 09:48:39 -0500</lastBuildDate><atom:link href="https://jasonyang5.github.io/public/categories/coffeeupdate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Delayed 2022 Single Origin List</title>
+      <link>https://jasonyang5.github.io/public/post/coffeelist/</link>
+      <pubDate>Sun, 29 May 2022 09:48:39 -0500</pubDate>
+      
+      <guid>https://jasonyang5.github.io/public/post/coffeelist/</guid>
+      <description>This year I&amp;rsquo;ve wanted to build my palate so I can identify differences across single origin coffees. So here&amp;rsquo;s my list so far:
+ Colombia Brazil (Dry Process) Guatemala Huehuetenago / Antigua Burundi Ethiopia (Washed, Natural) Sumatra Peru India Bali Honduras  I pulled this list from some combination of Sweet Maria&amp;rsquo;s (a site that ships unroasted coffee) most popular list and the most common origins I&amp;rsquo;ve seen on coffee roaster websites.</description>
+    </item>
+    
+  </channel>
+</rss>
