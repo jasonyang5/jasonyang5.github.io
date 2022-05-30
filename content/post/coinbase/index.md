@@ -11,8 +11,6 @@ cover:
     relative: false
 ---
 
-Here's how I'm thinking of valuing Coinbase. I haven't invested anything yet, but I'm looking to get in at something like $50/sh. 
-
 ## How the business works
 Coinbase has several lines of business with the goal of creating a crypto personal finance ecosystem (payments, investment, loans, credit, and a bunch more). I'm primarly interested in the trading part of the business, which makes about 80-90% of their revenue. 
 
@@ -34,10 +32,11 @@ Since 80%+ of Coinbase revenue comes directly from cryptocurrency trading volume
 ### Fundamental Value
 Using a backwards DCF with very conservative assumptions (assuming the non-trading parts of the business generated 0 profits, heavy discount rate, and heavy discounting of crypto assets on their balance sheet), a $66 sh price of Coinbase implies that BTC volumes will be down 40% in the coming years. 
 
-This seems pretty reasonable given how volumes are evolving now, so I'm waiting for the price to drop a bit further before buying in. 
-
 ## Catalyst
-I see two catalysts that will make Coinbase price more in line with its fundamentals rather than in line with the broader crypto market. 
+I see two potential that could make Coinbase price more in line with its fundamentals rather than in line with the broader crypto market. 
 
 1. Earnings - they report that revenue is up because volumes are up, causing the price to go up in the short term (but potentially revert in line with btc price). 
 2. Market Players will Change - Within the next 1-2 years, there will be an increase in fundamental value investor coverage in this space which will make the price converge to be priced in line with volume rather than BTC price. 
+
+## Final Note
+I'm not sure if I'll actually buy in, but I thought this was an interesting case of market value pretty clearly deviating from fundamental value due to the current market conditions (i.e. who is trading the stock).
