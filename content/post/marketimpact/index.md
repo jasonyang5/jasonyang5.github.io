@@ -13,3 +13,12 @@ math: true
 #     relative: false
 ---
 
+# Framework and Background
+
+
+# Summary
+The authors in this paper estimate a model of market impact from proprietary US cash equity transaction data at Citi over the span of ~2 years. 
+
+# Model and Estimation
+
+# Exercises
