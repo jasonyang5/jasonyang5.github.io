@@ -5,7 +5,16 @@
     <link>https://jasonyang5.github.io/public/post/</link>
     <description>Recent content in Posts on Jason&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Sep 2022 09:48:39 -0500</lastBuildDate><atom:link href="https://jasonyang5.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Oct 2022 09:48:39 -0500</lastBuildDate><atom:link href="https://jasonyang5.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Investment Bank HR Problem</title>
+      <link>https://jasonyang5.github.io/public/post/humanresources/</link>
+      <pubDate>Sat, 01 Oct 2022 09:48:39 -0500</pubDate>
+      
+      <guid>https://jasonyang5.github.io/public/post/humanresources/</guid>
+      <description>Motivated by recent news and conversations from friends, I solve a very simplistic microeconomic model showing why banks over work analysts in good times and fire in bad.</description>
+    </item>
+    
     <item>
       <title>Principles and Procedures for Trip Planning</title>
       <link>https://jasonyang5.github.io/public/post/tripplanning/</link>

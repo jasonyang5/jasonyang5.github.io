@@ -1,0 +1,539 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fullpage}
+\usepackage{parskip}
+\author{Jason Yang}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+The Human Resources Problem
+\end_layout
+
+\begin_layout Subsection
+Motivation and Overview
+\end_layout
+
+\begin_layout Standard
+Recently, multiple news sources reported that Goldman Sachs would start
+ a material amount of layoffs right after a period of record deal-making,
+ revenues, and (anecdotally) analyst overwork for investment banking as
+ an industry.
+ At first glance, this doesn't make much sense - how could it be beneficial
+ to overwork employees and then lay them off? Why not hire more (or less)
+ to begin with? In this post I work out a simple profit-max problem showing
+ that 1) imperfect forecasting of future dealflow and 2) sticky hiring make
+ it optimal to overwork analysts during good times and underwork (+ fire)
+ them during bad.
+\end_layout
+
+\begin_layout Standard
+In subsequent blog posts I will add 2 additional complications
+\end_layout
+
+\begin_layout Enumerate
+Directors with variable compensation can increase deal-flow but are still
+ limited by industry-wide trends
+\end_layout
+
+\begin_layout Enumerate
+Mid level bankers increase the effectivity of analysts but do not increase
+ deal flow
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Sources of a huge amount of deals
+\end_layout
+
+\begin_layout Standard
+https://www.investmentbankingcouncil.org/blog/the-future-of-investment-banking-202
+2-and-beyond
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+News publicizing goldman sachs firing people
+\end_layout
+
+\begin_layout Standard
+https://www.economist.com/finance-and-economics/2022/09/28/investment-banks-are-sh
+arpening-the-axe
+\end_layout
+
+\begin_layout Standard
+https://nypost.com/2022/09/26/goldman-sachs-begins-layoffs-targeting-mid-level-ba
+nkers/
+\end_layout
+
+\begin_layout Standard
+https://www.washingtontimes.com/news/2022/sep/27/investment-bank-goldman-sachs-beg
+ins-mass-layoffs-/
+\end_layout
+
+\begin_layout Subsection
+Problem v1 - Optimal Analyst Overwork
+\end_layout
+
+\begin_layout Subsubsection*
+Problem Setup
+\end_layout
+
+\begin_layout Standard
+Intuitively, the investment bank wants to maximize expected revenues.
+ But, they are uncertain about next year's deaflow and can only pick this
+ year's hiring one year in advance.
+ If they hire too many analysts, they will do all the deals availble to
+ them (under utilizing some analysts).
+ If they don't hire enough, they will do as many deals as the analyst productivi
+ty lets them do.
+ 
+\end_layout
+
+\begin_layout Standard
+Mathematically, the firm's profit function in year 
+\begin_inset Formula $t$
+\end_inset
+
+ is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{t}=r\min\left\{ f\left(\ell_{t-1}\right),D_{t}\right\} -w\ell_{t-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $\ell_{t-1}$
+\end_inset
+
+ is the amount of analyst labor hired last year (to do this year's deals),
+ 
+\begin_inset Formula $f\left(\ell\right)$
+\end_inset
+
+ is the analyst production function (how many deals 
+\begin_inset Formula $\ell$
+\end_inset
+
+ analysts can complete), 
+\begin_inset Formula $D_{t}$
+\end_inset
+
+ is the amount of deals, 
+\begin_inset Formula $w$
+\end_inset
+
+ is the analyst wage, and 
+\begin_inset Formula $r$
+\end_inset
+
+ is the revenue per deal.
+ 
+\end_layout
+
+\begin_layout Standard
+The firm's dynamic objective is pick a hiring plan that maximizes discounted
+ profits over its whole lifetime
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\max_{\left\{ \ell\right\} }\mathbb{E}\left(\sum_{t=0}^{\infty}\beta^{t}p_{t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For simplicity, assume that 
+\begin_inset Formula $D_{t}$
+\end_inset
+
+ is binomial and depends only on the value of 
+\begin_inset Formula $D_{t-1}$
+\end_inset
+
+.
+ There are 2 possible values that 
+\begin_inset Formula $D_{t}$
+\end_inset
+
+ can take on, 
+\begin_inset Formula $D_{t}=D_{h}$
+\end_inset
+
+ (high number of deals) and 
+\begin_inset Formula $D_{t}=D_{l}$
+\end_inset
+
+ (low number of deals).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(D_{t}=D_{h}\mid D_{t-1}=D_{h}\right)=p_{h,h}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(D_{t}=D_{h}\mid D_{t-1}=D_{l}\right)=p_{l,h}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The solution to the objective function is to pick 
+\begin_inset Formula $\ell_{t-1}$
+\end_inset
+
+ that maximizes 
+\begin_inset Formula $p_{t}$
+\end_inset
+
+ (in both the 
+\begin_inset Formula $D_{t-1}=D_{h}$
+\end_inset
+
+ regime and 
+\begin_inset Formula $D_{t-1}=D_{l}$
+\end_inset
+
+ regime).
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Solution
+\end_layout
+
+\begin_layout Standard
+We want to maximize
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{t}=\mathbb{E}\left(\underbrace{r\min\left\{ f\left(\ell_{t-1}\right),D_{t}\right\} }_{\text{Revenues}}-\underbrace{w\ell_{t-1}}_{\text{Wages Paid}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the objective function has a kink where 
+\begin_inset Formula $f\left(\ell_{t-1}\right)=D_{t}$
+\end_inset
+
+ we have to consider a few cases depending on what 
+\begin_inset Formula $D_{t}$
+\end_inset
+
+ actually is before we go about solving the optimization.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Claim:
+\bar default
+ It's reasonable to assume 
+\begin_inset Formula $D_{l}\leq f\left(\ell_{t-1}\right)\leq D_{h}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Case 1: 
+\begin_inset Formula $f\left(\ell_{t-1}\right)>D_{h}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that this is strictly sub optimal.
+ This means that the bank is wasting wages in both the high number of deals
+ and low number of deals state.
+ They would be better off in both states reducing 
+\begin_inset Formula $\ell_{t-1}$
+\end_inset
+
+ such that 
+\begin_inset Formula $f\left(\ell_{t-1}\right)=D_{h}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Case 2: 
+\begin_inset Formula $f\left(\ell_{t-1}\right)<D_{l}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is actually possible (depending on the functional form of 
+\begin_inset Formula $f$
+\end_inset
+
+, value of 
+\begin_inset Formula $D_{l}$
+\end_inset
+
+, and value of 
+\begin_inset Formula $r$
+\end_inset
+
+), though not interesting.
+ Intuitively, it means that the number of deals in the 
+\begin_inset Quotes eld
+\end_inset
+
+low deals
+\begin_inset Quotes erd
+\end_inset
+
+ state is still so high that the firm still wouldn't be able to capture
+ all of the deals.
+ So, I won't consider this case.
+ 
+\end_layout
+
+\begin_layout Standard
+Without loss of generality, let's assume we're in the low state 
+\begin_inset Formula $l$
+\end_inset
+
+.
+ For an interior solution 
+\begin_inset Formula $D_{l}<f\left(\ell_{t-1}\right)<D_{h}$
+\end_inset
+
+, the the profit function is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{t}=p_{l,h}\cdot rf\left(\ell_{t-1}\right)+p_{l,l}D_{l}-w\ell_{t-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $f$
+\end_inset
+
+ is differentiable, strictly increasing, with decreasing returns to scale
+ then notice that 
+\begin_inset Formula $p_{t}$
+\end_inset
+
+ has a unique solution described by the first order conditions.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\ell_{t-1}\right]:p_{l,h}rf'\left(\ell_{t-1}\right)=w\ell_{t-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Which means the marginal profit of hiring another analyst equals the wage.
+ Note that the marginal profit is also scaled by 
+\begin_inset Formula $p_{l,h}$
+\end_inset
+
+ which is the odds that we turn out in the high deal state (where we will
+ get maximum analyst utilization).
+ Hiring more analysts yields no profits in the low deal state because the
+ number of deals is lower than analyst productivity.
+ 
+\end_layout
+
+\begin_layout Standard
+Just for the sake of it, assume 
+\begin_inset Formula $f\left(\ell\right)=\log\ell$
+\end_inset
+
+.
+ Then explicitly solved
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ell_{t-1}=\frac{r\cdot p_{l,h}}{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $r,w$
+\end_inset
+
+ are constants, we then see that the time series for 
+\begin_inset Formula $\ell_{t-1}$
+\end_inset
+
+ will directly follow the time series for 
+\begin_inset Formula $p_{l,h}$
+\end_inset
+
+ (the probabilities we end up in a high dealflow state).
+ 
+\end_layout
+
+\begin_layout Standard
+Economically,
+\end_layout
+
+\begin_layout Enumerate
+Analyst hiring follows the dealflow (economic) cycle
+\end_layout
+
+\begin_layout Enumerate
+The firm will hemorrage money in the low state, over hiring, in preparation
+ for capturing more deal flow in the high state
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $p_{l,h}$
+\end_inset
+
+ is sufficiently small, the firm will also fire analysts (but not so many
+ that it over-fits to the low regime) because expected future dealflow is
+ lower.
+ 
+\end_layout
+
+\begin_layout Standard
+For the exterior solutions, I'm just going to assert the firm will never
+ pick them because the transition probabilities are always nonzero.
+ 
+\end_layout
+
+\end_body
+\end_document
