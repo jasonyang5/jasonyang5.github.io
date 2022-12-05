@@ -46,7 +46,7 @@ Third, does this really happen in practice? Probably not often.
 
 **Cause A vs Cause B**
 
-Sub choice 2 is between causes. I think causes are impossible to reason between because any unified framework that compares causes will have extremely wide error bands that make the comparison inconclusive. 
+Sub choice 2 is between causes. I think causes are impossible to reason between because any unified framework that compares causes will have extremely wide error bands that make the comparison inconclusive	. 
 
 Take a classic example - global development aid versus minimizing existential risk. Let's use the expected quality adjusted life years framework for both. This requires 3 ingredients: the number of people benefitted, the quality of life improvement for those benefitted, and the probability that the intervention works. 
 
