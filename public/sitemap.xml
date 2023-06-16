@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasonyang5.github.io/public/post/popularmusic/</loc>
+    <lastmod>2023-05-29T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/</loc>
+    <lastmod>2023-05-29T09:48:39-05:00</lastmod>
+  </url><url>
+    <loc>https://jasonyang5.github.io/public/post/</loc>
+    <lastmod>2023-05-29T09:48:39-05:00</lastmod>
+  </url><url>
     <loc>https://jasonyang5.github.io/public/categories/</loc>
     <lastmod>2022-12-03T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/post/longtermism/</loc>
-    <lastmod>2022-12-03T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/</loc>
-    <lastmod>2022-12-03T09:48:39-05:00</lastmod>
-  </url><url>
-    <loc>https://jasonyang5.github.io/public/post/</loc>
     <lastmod>2022-12-03T09:48:39-05:00</lastmod>
   </url><url>
     <loc>https://jasonyang5.github.io/public/categories/takes/</loc>
